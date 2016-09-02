@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		
+		<style>
+			.icon
+			{
+				display: inline-block;
+				width: 25px;
+				height: 25px;
+			}
+		</style>
+	</head>
+	<body>
+		<svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+			<symbol viewBox="0 0 16 16" id="ceiling-down"><path d="M16 16V0H0z" color="black"/></symbol>
+			<symbol viewBox="0 0 16 16" id="ceiling-up"><path d="M0 16V0h16z" color="black"/></symbol>
+			<symbol viewBox="0 0 16 16" id="empty"></symbol>
+			<symbol viewBox="0 0 16 16" id="full"><path d="M0 0h16v16H0z" color="black"/></symbol>
+			<symbol viewBox="0 0 16 16" id="ramp-down"><path d="M0 0v16h16z" color="black"/></symbol>
+			<symbol viewBox="0 0 16 16" id="ramp-up"><path d="M16 0v16H0z" color="black"/></symbol>
+			<symbol viewBox="0 0 16 16" id="star"><path d="M8 0l2.425 5.074L16 5.812l-4.076 3.875 1.02 5.53L8 12.537l-4.944 2.68 1.02-5.53L0 5.812l5.575-.738z" color="black"/></symbol>
+		</svg>
+		
+		<svg class="icon"><use xlink:href="#ceiling-down"></use></svg>
+		<svg class="icon"><use xlink:href="#star"></use></svg>
+	</body>
+</html>
