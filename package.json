@@ -1,9 +1,10 @@
 {
   "private": true,
   "devDependencies": {
-    "grunt": "1.0.1",
-    "grunt-svgmin": "3.3.0",
-    "grunt-svgstore": "1.0.0",
-    "load-grunt-tasks": "3.5.2"
+    "rimraf": "2.5.4",
+    "svgo": "0.7.0"
+  },
+  "scripts": {
+    "start": "rimraf \"./tmp\" && svgo --folder=svg --output=tmp"
   }
 }
