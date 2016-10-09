@@ -17,7 +17,7 @@ J%%%%%
 
 */
 
-const TIME = 80
+const TIME = 200
 const FRAMES = [
 
 10,`
